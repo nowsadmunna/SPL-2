@@ -11,6 +11,9 @@ export default function Home() {
             <li className='text-blue-700 hover:underline'>about</li>
         </Link>
         <Link to='/registration_verification'>
+            <li className='text-blue-700 hover:underline'>registration_verification</li>
+        </Link>
+        <Link to='/registration'>
             <li className='text-blue-700 hover:underline'>registration</li>
         </Link>
       </ul>
